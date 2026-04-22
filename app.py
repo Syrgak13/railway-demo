@@ -1,4 +1,4 @@
-return '<h1>Railway Deployed!</h1><p>Auto-deployed from GitHub!</p>'from flask import Flask
+from flask import Flask
 import os
 
 app = Flask(__name__)
